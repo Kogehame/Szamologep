@@ -32,6 +32,10 @@ namespace Számológép
             {
                 muvelet = gomb1.Text;
             }
+            else
+            {
+                muvelet = muvelet + gomb1.Text;
+            }
             db = db + 1;
         }
 
@@ -40,6 +44,10 @@ namespace Számológép
             if (db == 0)
             {
                 muvelet = gomb2.Text;
+            }
+            else
+            {
+                muvelet = muvelet + gomb2.Text;
             }
             db = db + 1;
         }
@@ -50,6 +58,10 @@ namespace Számológép
             {
                 muvelet = gomb3.Text;
             }
+            else
+            {
+                muvelet = muvelet + gomb3.Text;
+            }
             db = db + 1;
         }
 
@@ -58,6 +70,10 @@ namespace Számológép
             if (db == 0)
             {
                 muvelet = gomb4.Text;
+            }
+            else
+            {
+                muvelet = muvelet + gomb4.Text;
             }
             db = db + 1;
         }
@@ -68,6 +84,10 @@ namespace Számológép
             {
                 muvelet = gomb5.Text;
             }
+            else
+            {
+                muvelet = muvelet + gomb5.Text;
+            }
             db = db + 1;
         }
 
@@ -76,6 +96,10 @@ namespace Számológép
             if (db == 0)
             {
                 muvelet = gomb6.Text;
+            }
+            else
+            {
+                muvelet = muvelet + gomb6.Text;
             }
             db = db + 1;
         }
@@ -86,6 +110,10 @@ namespace Számológép
             {
                 muvelet = gomb7.Text;
             }
+            else
+            {
+                muvelet = muvelet + gomb7.Text;
+            }
             db = db + 1;
         }
 
@@ -94,6 +122,10 @@ namespace Számológép
             if (db == 0)
             {
                 muvelet = gomb8.Text;
+            }
+            else
+            {
+                muvelet = muvelet + gomb8.Text;
             }
             db = db + 1;
         }
@@ -104,6 +136,10 @@ namespace Számológép
             {
                 muvelet = gomb9.Text;
             }
+            else
+            {
+                muvelet = muvelet + gomb9.Text;
+            }
             db = db + 1;
         }
 
@@ -113,12 +149,20 @@ namespace Számológép
             {
                 muvelet = gomb0.Text;
             }
+            else
+            {
+                muvelet = muvelet + gomb10.Text;
+            }
             db = db + 1;
         }
 
         private void vesszo_Click(object sender, EventArgs e)
         {
             if (db == 0)
+            {
+                muvelet = muvelet + vesszo.Text;
+            }
+            else
             {
                 muvelet = muvelet + vesszo.Text;
             }
